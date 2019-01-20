@@ -8,6 +8,7 @@ dependencies:
   babel-plugin-named-asset-import: 0.3.0
   babel-preset-react-app: 7.0.0
   bfj: 6.1.1
+  bulma: 0.7.2
   case-sensitive-paths-webpack-plugin: 2.1.2
   chalk: 2.4.1
   css-loader: 1.0.0
@@ -2139,6 +2140,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
+  /bulma/0.7.2:
+    dev: false
+    resolution:
+      integrity: sha512-6JHEu8U/1xsyOst/El5ImLcZIiE2JFXgvrz8GGWbnDLwTNRPJzdAM0aoUM1Ns0avALcVb6KZz9NhzmU53dGDcQ==
   /bytes/3.0.0:
     dev: false
     engines:
@@ -10279,6 +10284,7 @@ specifiers:
   babel-plugin-named-asset-import: ^0.3.0
   babel-preset-react-app: ^7.0.0
   bfj: 6.1.1
+  bulma: ^0.7.2
   case-sensitive-paths-webpack-plugin: 2.1.2
   chalk: 2.4.1
   css-loader: 1.0.0

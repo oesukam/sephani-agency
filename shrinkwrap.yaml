@@ -39,6 +39,8 @@ dependencies:
   react-app-polyfill: 0.2.0
   react-dev-utils: 7.0.1
   react-dom: 16.7.0
+  react-redux: 6.0.0
+  redux: 4.0.1
   resolve: 1.8.1
   sass-loader: 7.1.0
   style-loader: 0.23.0
@@ -1017,6 +1019,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-xKnPpXG/pvK1B90JkwwxSGii90rQGKtzcMt2gI5G6+M0REXaq6rOHsGC2ay6/d0Uje7zzvSzjEzfR3ENhFlrfA==
+  /@babel/runtime/7.2.0:
+    dependencies:
+      regenerator-runtime: 0.12.1
+    dev: false
+    resolution:
+      integrity: sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
   /@babel/template/7.2.2:
     dependencies:
       '@babel/code-frame': 7.0.0
@@ -4564,6 +4572,12 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==
+  /hoist-non-react-statics/3.2.1:
+    dependencies:
+      react-is: 16.7.0
+    dev: false
+    resolution:
+      integrity: sha512-TFsu3TV3YLY+zFTZDrN8L2DTFanObwmBLpWvJs1qfUuEQ5bTAdFcwfx2T/bsCXfM9QHSLvjfP+nihEl0yvozxw==
   /home-or-tmp/2.0.0:
     dependencies:
       os-homedir: 1.0.2
@@ -8129,6 +8143,24 @@ packages:
     dev: false
     resolution:
       integrity: sha512-7kEBKwU9R8fKnZJBRa5RSIfay4KJwnYvKB6gODGicUmDSAhQJ7Tdnll5S0RLtYrzRfMVXlqYw61rzrSpP4ThLQ==
+  /react-is/16.7.0:
+    dev: false
+    resolution:
+      integrity: sha512-Z0VRQdF4NPDoI0tsXVMLkJLiwEBa+RP66g0xDHxgxysxSoCUccSten4RTF/UFvZF1dZvZ9Zu1sx+MDXwcOR34g==
+  /react-redux/6.0.0:
+    dependencies:
+      '@babel/runtime': 7.2.0
+      hoist-non-react-statics: 3.2.1
+      invariant: 2.2.4
+      loose-envify: 1.4.0
+      prop-types: 15.6.2
+      react-is: 16.7.0
+    dev: false
+    peerDependencies:
+      react: ^16.4.0-0
+      redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
+    resolution:
+      integrity: sha512-EmbC3uLl60pw2VqSSkj6HpZ6jTk12RMrwXMBdYtM6niq0MdEaRq9KYCwpJflkOZj349BLGQm1MI/JO1W96kLWQ==
   /react/16.7.0:
     dependencies:
       loose-envify: 1.4.0
@@ -8235,6 +8267,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
+  /redux/4.0.1:
+    dependencies:
+      loose-envify: 1.4.0
+      symbol-observable: 1.2.0
+    dev: false
+    resolution:
+      integrity: sha512-R7bAtSkk7nY6O/OYMVR9RiBI+XghjF9rlbl5806HJbQph0LJVHZrU5oaO4q70eUKiqMRqm4y07KLTlMZ2BlVmg==
   /regenerate-unicode-properties/7.0.0:
     dependencies:
       regenerate: 1.4.0
@@ -9263,6 +9302,12 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-GBkJbnTuFpM4jFbiERHDWhZc/S/kpHToqmZag3aEBjPYK44JAN2QBjvrGIxLOoCyMZjuFQIfTO2eJd8uwLY/9g==
+  /symbol-observable/1.2.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
   /symbol-tree/3.2.2:
     dev: false
     resolution:
@@ -10265,6 +10310,8 @@ specifiers:
   react-app-polyfill: ^0.2.0
   react-dev-utils: ^7.0.1
   react-dom: ^16.7.0
+  react-redux: ^6.0.0
+  redux: ^4.0.1
   resolve: 1.8.1
   sass-loader: 7.1.0
   style-loader: 0.23.0

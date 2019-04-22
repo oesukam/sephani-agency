@@ -1,0 +1,93 @@
+.fixed-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.navbar {
+  flex-direction: column;
+}
+
+.navbar-brand > .navbar-item {
+  font-size: 1.5rem;
+}
+.top-header-top {
+  height: 40px;
+  width: 100%;
+}
+.topbar {
+  background-color: #192838;
+  float: left;
+  width: 100%;
+  padding-left: 100px;
+  padding: 15px 0 15px 100px;
+  position: relative;
+  margin-left: 20%;
+}
+.topbar:before {
+  content: "";
+  background: #192838;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.topbar:after {
+  content: "";
+  position: absolute;
+  left: -49px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #192838;
+  border-left: 50px solid transparent;
+}
+.topbar span {
+  float: left;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  margin-right: 80px;
+}
+.topbar span i {
+  font-style: normal;
+}
+.topbar span.socials {
+  margin: 0 0 0 15px;
+  float: none;
+}
+.socials {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.socials a {
+  display: inline-block;
+  width: 25px;
+  font-size: 15px;
+  color: #efefef;
+  vertical-align: middle;
+}
+.top-header-bottom {
+  margin-top: 10px;
+}
+
+.navbar-item {
+  font-weight: 600;
+}
+.navbar-item:hover {
+  color: #00abc9;
+}
+.navbar-item__flag {
+  height: 20px;
+  width: 30px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.main-content {
+  padding-top: 100px;
+}

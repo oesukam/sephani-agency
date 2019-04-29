@@ -1,0 +1,18 @@
+.country-card {
+  width: 100%;
+  margin: 10px;
+  height: 40vh;
+  min-height: 300px;
+  display: flex;
+}
+
+.country-card__image {
+  flex: 1;
+  background-color: aliceblue;
+  object-fit: cover;
+}
+
+.country-card__content {
+  flex: 2;
+  background-color: aqua;
+}

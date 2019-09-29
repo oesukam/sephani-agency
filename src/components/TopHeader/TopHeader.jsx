@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./TopHeader.css";
-import chinaFlag from "../../assets/images/china-flag.png";
-import usaFlag from "../../assets/images/usa-flag.jpg";
-import ukFlag from "../../assets/images/uk-flag.jpg";
-import swedenFlag from "../../assets/images/sweden-flag.png";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './TopHeader.css';
+import chinaFlag from '../../assets/images/china-flag.png';
+import usaFlag from '../../assets/images/usa-flag.jpg';
+import ukFlag from '../../assets/images/uk-flag.jpg';
+import swedenFlag from '../../assets/images/sweden-flag.png';
 
 export default class TopHeader extends Component {
   state = {
@@ -50,6 +50,7 @@ export default class TopHeader extends Component {
             </a>
 
             <a
+              href
               role="button"
               className="navbar-burger burger"
               aria-label="menu"
@@ -64,10 +65,14 @@ export default class TopHeader extends Component {
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item">Home</a>
+              <a href className="navbar-item">
+                Home
+              </a>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link">Countries</a>
+                <a href className="navbar-link">
+                  Countries
+                </a>
 
                 <div className="navbar-dropdown">
                   <Link to="/countries/china" className="navbar-item">
@@ -104,7 +109,9 @@ export default class TopHeader extends Component {
                   </Link>
                 </div>
               </div>
-              <a className="navbar-item">Contact</a>
+              <a href lassName="navbar-item">
+                Contact
+              </a>
             </div>
           </div>
         </div>

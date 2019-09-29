@@ -29,6 +29,7 @@ export default class TopHeader extends Component {
                 <a
                   href="https://www.facebook.com/sephanie.mbembamulengesi"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-facebook" />
                 </a>

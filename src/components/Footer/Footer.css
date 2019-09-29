@@ -1,0 +1,25 @@
+.footer {
+  background-color: #192838;
+  color: #fff;
+}
+.footer h1 {
+  color: inherit;
+}
+.footer-social {
+  text-align: right;
+}
+.footer-social .social {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #394d63;
+  margin-left: 20px;
+}
+
+.footer-social .social:hover {
+  background-color: #5a799b;
+}

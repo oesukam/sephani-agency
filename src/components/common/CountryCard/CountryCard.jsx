@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "./CountryCard.css";
+import './CountryCard.css';
 
 class CountryCard extends Component {
   onCardClick = e => {
     console.log(e.target);
   };
   render() {
-    const { image, title, text, history } = this.props;
+    const { image, title, text } = this.props;
     return (
       <div className="country-card" onClick={this.onCardClick}>
         <img src={image} alt="country flag" className="country-card__image" />

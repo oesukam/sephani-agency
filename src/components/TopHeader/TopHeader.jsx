@@ -109,7 +109,7 @@ export default class TopHeader extends Component {
                   </Link>
                 </div>
               </div>
-              <a href lassName="navbar-item">
+              <a href className="navbar-item">
                 Contact
               </a>
             </div>

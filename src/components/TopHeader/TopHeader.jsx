@@ -24,7 +24,7 @@ export default class TopHeader extends Component {
               Contact: <i>+(86) 136 2867 0439</i>
             </span>
             <span>
-              Stay Connected:
+              Rester connecté::
               <span className="socials">
                 <a
                   href="https://www.facebook.com/sephanie.mbembamulengesi"
@@ -66,12 +66,12 @@ export default class TopHeader extends Component {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <a href className="navbar-item">
-                Home
+                Accueil
               </a>
 
               <div className="navbar-item has-dropdown is-hoverable">
                 <a href className="navbar-link">
-                  Countries
+                  Pays
                 </a>
 
                 <div className="navbar-dropdown">

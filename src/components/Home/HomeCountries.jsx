@@ -8,26 +8,26 @@ import swedenFlag from '../../assets/images/sweden-flag.png';
 import './HomeCountries.css';
 const countries = [
   {
-    name: 'China',
+    name: 'Chine',
     flag: chinaFlag
   },
   {
-    name: 'USA',
+    name: 'Etats-Unis',
     flag: usaFlag
   },
   {
-    name: 'UK',
+    name: 'Royaume-Uni',
     flag: ukFlag
   },
   {
-    name: 'Sweden',
+    name: 'Suède',
     flag: swedenFlag
   }
 ];
 const HomeCountries = ({ history }) => (
   <div className="container">
     <img className="country-category" src={categoryIcon} alt="category icon" />
-    <h3 className="title is-1">Countries</h3>
+    <h3 className="title is-1">Pays</h3>
     <div className="columns">
       {countries.map(country => (
         <div key={country.name} className="column">

@@ -8,14 +8,13 @@ const Footer = () => (
       </div>
       <div className="column">
         <div className="footer-social">
-          <a href="" target="_blank" className="social">
+          <a
+            href="https://www.facebook.com/sephanie.mbembamulengesi"
+            target="_blank"
+            className="social"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-facebook"></i>
-          </a>
-          <a href="" target="_blank" className="social">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="" target="_blank" className="social">
-            <i className="fa fa-instagram"></i>
           </a>
         </div>
       </div>

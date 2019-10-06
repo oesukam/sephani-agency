@@ -1,31 +1,31 @@
-import React from "react";
-import { Slide } from "react-slideshow-image";
-import slide1 from "../../assets/images/slide-1.jpg";
-import slide2 from "../../assets/images/slide-2.jpg";
-import slide3 from "../../assets/images/slide-3.jpg";
-import slide4 from "../../assets/images/slide-4.jpg";
-import slide5 from "../../assets/images/slide-5.jpg";
-import "./HomeSlide.css";
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import slide1 from '../../assets/images/slide-1.jpg';
+import slide2 from '../../assets/images/slide-2.jpg';
+import slide3 from '../../assets/images/slide-3.jpg';
+import slide4 from '../../assets/images/slide-4.jpg';
+import slide5 from '../../assets/images/slide-5.jpg';
+import './HomeSlide.css';
 
 const slideImages = [
   {
-    title: "Education Needs Complete Solution",
-    text: "Start learning today with us",
+    title: "L'éducation a besoin d'une solution complète.",
+    text: "Commencez à apprendre aujourd'hui avec nous",
     image: slide1
   },
   {
-    title: "Education Needs Complete Solution",
+    title: "L'éducation a besoin d'une solution complète.",
     text:
-      "We help students reach their goals by placing them into schools they merit",
+      'Nous aidons les élèves à atteindre leurs objectifs en les plaçant dans les écoles qu’ils méritent.',
     image: slide2
   },
   {
-    title: "Education Needs Complete Solution",
-    text: "Start your journey with us",
+    title: "L'éducation a besoin d'une solution complète.",
+    text: 'Commencez votre voyage avec nous',
     image: slide3
   },
-  { title: "", text: "", image: slide4 },
-  { title: "", text: "", image: slide5 }
+  { title: '', text: '', image: slide4 },
+  { title: '', text: '', image: slide5 }
 ];
 
 const properties = {
@@ -48,7 +48,7 @@ const HomeSlide = () => {
                 <h1>{slide.text}</h1>
               </div>
             ) : (
-              ""
+              ''
             )}
           </div>
         </div>

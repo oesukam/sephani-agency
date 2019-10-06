@@ -24,7 +24,7 @@ export default class TopHeader extends Component {
               Contact: <i>+(86) 136 2867 0439</i>
             </span>
             <span>
-              Rester connecté::
+              Rester connecté:
               <span className="socials">
                 <a
                   href="https://www.facebook.com/sephanie.mbembamulengesi"

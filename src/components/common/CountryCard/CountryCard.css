@@ -1,8 +1,8 @@
 .country-card {
   width: 100%;
   margin: 10px;
-  height: 40vh;
-  min-height: 300px;
+  height: 30vh;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -10,14 +10,19 @@
 }
 
 .country-card__image {
-  flex: 3;
+  flex: 1;
   background-color: aliceblue;
   object-fit: cover;
   overflow: hidden;
 }
 
 .country-card__content {
-  flex: 2;
+  height: 4em;
   padding: 10px;
   overflow: hidden;
+}
+
+.country-name {
+  text-align: center;
+  font-size: 1.5em;
 }

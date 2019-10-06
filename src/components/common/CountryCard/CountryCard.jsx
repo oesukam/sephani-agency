@@ -7,12 +7,12 @@ class CountryCard extends Component {
     console.log(e.target);
   };
   render() {
-    const { flag, title, text } = this.props;
+    const { flag, name, text } = this.props;
     return (
       <div className="country-card" onClick={this.onCardClick}>
         <img src={flag} alt="country flag" className="country-card__image" />
         <div className="country-card__content">
-          <h3>{title}</h3>
+          <h1 className="country-name">{name}</h1>
           <p>{text}</p>
         </div>
       </div>
